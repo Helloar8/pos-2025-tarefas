@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id ="1">
+        <nome>Feijoada</nome>
+        <ingredientes>Feijão preto, carne de porco, linguiça e arroz.</ingredientes>
+        <tempo_preparo>120 min</tempo_preparo>
+        <descricao>Prato tipicamente brasileiro, com o sabor inconfundível.</descricao>
+        <preco>45.00</preco>
+        <calorias>1200 kcal</calorias>
+    </prato>
+
+    <prato id= "2">
+        <nome>Pizza Margherita</nome>
+        <ingredientes>Massa de pizza, molho de tomate, queijo mozzarella e manjericão.</ingredientes>
+        <tempo_preparo>30 min</tempo_preparo>
+        <descricao>Clássica pizza italiana com sabor fresco e leve.</descricao>
+        <preco>35.00</preco>
+        <calorias>800 kcal</calorias>
+    </prato>
+    
+    <prato id= "3">
+        <nome>Lasagna</nome>
+        <ingredientes>Massa de lasanha, carne moída, molho de tomate e queijo.</ingredientes>
+        <tempo_preparo>90 min</tempo_preparo>
+        <descricao>Deliciosa lasanha com camadas de sabor.</descricao>
+        <preco>50.00</preco>
+        <calorias>900 kcal</calorias>
+    </prato>
+
+    <prato id= "4">
+        <nome>Sushi</nome>
+        <ingredientes>Arroz, peixe cru, alga nori e vegetais.</ingredientes>
+        <tempo_preparo>60 min</tempo_preparo>
+        <descricao>Prato japonês com uma combinação de sabores únicos.</descricao>
+        <preco>70.00</preco>
+        <calorias>600 kcal</calorias>
+    </prato>
+
+    <prato id= "5">
+        <nome>Churrasco</nome>
+        <ingredientes>Carnes grelhadas, farofa e vinagrete.</ingredientes>
+        <tempo_preparo>180 min</tempo_preparo>
+        <descricao>Tradicional churrasco brasileiro com carnes suculentas.</descricao>
+        <preco>80.00</preco>
+        <calorias>1500 kcal</calorias>
+    </prato>
+</cardapio>

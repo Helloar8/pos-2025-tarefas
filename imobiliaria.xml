@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT caracteristicas (tamanho, numQuartos , numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+<!ELEMENT proprietario (nome, (email | telefone)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT endereco (rua, bairro, cidade, numero+)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+]>
+
+
+<imobiliaria>
+    <imovel>
+        <descricao>Ótimo local</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <email>joao5@gmail.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+            <numero></numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120 m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>500000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa com piscina</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>11987654321</telefone>
+            <telefone>53637654321</telefone>
+            <email> marioa@gmail.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Jardim das Rosas</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>45</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>200 m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>750000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento moderno</descricao>
+        <proprietario>
+            <nome>Pedro Santos</nome>
+            <email>pedro.santos@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Paulista</rua>
+            <bairro>Bela Vista</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>1000</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80 m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>400000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sítio com área verde</descricao>
+        <proprietario>
+            <nome>Carlos Almeida</nome>
+            <telefone>11912345678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Campo</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Campinas</cidade>
+            <numero>SN</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>5000 m²</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>1200000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet compacta</descricao>
+        <proprietario>
+            <nome>Ana Costa</nome>
+            <email>ana.costa@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Comércio</rua>
+            <bairro>Centro</bairro>
+            <cidade>Curitiba</cidade>
+            <numero></numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>30 m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>150000</valor>
+    </imovel>
+</imobiliaria>

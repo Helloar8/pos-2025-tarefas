@@ -1,0 +1,75 @@
+{
+    "cardapio":
+    [
+        {
+        "id": "p1",
+        "nome": "Feijoada",
+        "ingredientes": [
+            "Feijão preto",
+            "Carnes variadas",
+            "Linguiça",
+            "Arroz",
+            "Farinha de mandioca"
+        ],
+        "tempo_preparo": "120 min",
+        "descricao": "Prato tipicamente brasileiro, com o sabor inconfundível.",
+        "preco": 45.00,
+        "calorias": "1200 kcal"
+        },
+        {
+            "id": "p2",
+            "nome": "Pizza Margherita",
+            "ingredientes": [
+                "Massa de pizza",
+                "molho de tomate",
+                "queijo mozzarella",
+                "manjericão"
+            ],
+            "tempo_preparo": "30 min",
+            "descricao": "Clássica pizza italiana com sabor fresco e leve.",
+            "preco": 35.00,
+            "moeda": "BRL",
+            "calorias": "800 kcal"
+        },
+        {
+            "id": "p3",
+            "nome": "Lasagna",
+            "ingredientes": [
+                "massa de lasanha",
+                "carne moída",
+                "molho de tomate",
+                "queijo"
+            ],
+            "tempo_preparo": "90 min",
+            "descricao": "Deliciosa lasanha com camadas de sabor.",
+            "preco": 50.00,
+            "calorias": "900 kcal"
+        },
+        {
+            "id": "p4",
+            "nome": "Sushi",
+            "ingredientes": [
+                "peixe cru",
+                "alga nori",
+                "vegetais"
+            ],
+            "tempo_preparo": "60 min",
+            "descricao": "Prato japonês com uma combinação de sabores únicos.",
+            "preco": 70.00,
+            "calorias": "600 kcal"
+        },
+        {
+            "id": "p5",
+            "nome": "Churrasco",
+            "ingredientes": [
+                "carne grelhada",
+                "farofa",
+                "vinagrete"
+            ],
+            "tempo_preparo": "180 min",
+            "descricao": "Tradicional churrasco brasileiro com carnes suculentas.",
+            "preco": 80.00,
+            "calorias": "1500 kcal"
+        }
+    ]
+}

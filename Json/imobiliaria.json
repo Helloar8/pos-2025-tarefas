@@ -1,0 +1,110 @@
+{
+  "imobiliaria": [
+    {
+      "imovel": "casa",
+      "descricao": "Casa aconchegante com 3 quartos, sala ampla, cozinha equipada e quintal.",
+      "valor": 50000.00,
+      "proprietario": "João da Silva",
+      "email": "joao5@gmail.com",
+      "endereco": {
+        "rua": "Rua das Flores",
+        "numero": 123,
+        "bairro": "Jardim das Rosas",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01234-567"
+      },
+      "caracteristicas": {
+        "tamanho": "120 m²",
+        "quartos": 3,
+        "banheiros": 2
+      }
+    },
+
+    {
+        "imovel": "casa com piscina",
+        "descricao": "Casa espaçosa com 4 quartos, piscina, churrasqueira e jardim.",
+        "valor": 75000.00,
+        "proprietario": "Maria Oliveira",
+        "email": "marioa@gmail.com",
+        "telefone":{
+            "celular": 11987654321,
+            "residencial": 53637654321
+        },
+        "endereco": {
+          "rua": "Avenida das Palmeiras",
+          "numero": 456,
+          "bairro": "Centro",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "98765-432"
+        },
+        "caracteristicas": {
+          "tamanho": "200 m²",
+          "quartos": 4,
+          "banheiros": 3
+        }
+    },
+
+
+    {
+        "imovel": "apartamento",
+        "descricao": "Apartamento moderno com 2 quartos, sala de estar, cozinha americana e varanda.",
+        "valor": 40000.00,
+        "proprietario": "Pedro Santos",
+        "email": "pedro.santos@email.com",
+        "endereco": {
+            "rua": "Avenida Paulista",
+            "bairro": "Bela Vista",
+            "cidade": "São Paulo",
+            "numero": 1000
+        },
+        "caracteristicas": {
+            "tamanho": "80 m²",
+            "quartos": 2,
+            "banheiros": 1
+        }
+    },
+
+    {
+        "imovel": "sitio com área verde",
+        "descricao": "Sítio com grande área verde, lago, pomar e casa rústica.",
+        "valor": 120000.00,
+        "proprietario": "Carlos Almeida",
+        "telefone": 11912345678,
+        "endereco":{
+            "rua": "Estrada do Campo",
+            "bairro": "zona rural",
+            "cidade": "Campinas",
+            "numero": "SN"
+        },
+        "caracteristicas": {
+            "tamanho": "5000 m²",
+            "quartos": 5,
+            "banheiros": 2
+        }
+    },
+
+    {
+        "imovel": "kitnet compacta",
+        "descricao": "Kitnet compacta e funcional, ideal para estudantes ou solteiros.",
+        "valor": 15000.00,
+        "proprietario": "Ana Costa",
+        "email": "ana.costa@gmail.com",
+        "endereco": {
+            "rua": "Rua do comercio",
+            "bairro": "Centro",
+            "cidade": "Curitiba"
+
+        },
+
+        "caracteristicas": {
+            "tamanho": "30 m²",
+            "quartos": 1,
+            "banheiros": 1
+        }
+    }
+
+    
+  ]
+}

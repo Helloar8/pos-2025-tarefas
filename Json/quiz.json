@@ -1,0 +1,41 @@
+{
+    "quiz":{
+        "disciplina": "Matemática",
+        "professor": "João Silva",
+        "matricula": "123456",
+        "turma": "A",
+        "data": "2023-10-01",
+        "questoes":{
+            "questão1":{
+                "enunciado": "Qual é a raiz quadrada de 16?",
+                "pontuação": 2,
+                "alternativas":[4, 5, 6, 7],
+                "resposta_correta": 4
+            },
+            "questão2":{
+                "enunciado": "Qual é a cor do céu?",
+                "pontuação": 2,
+                "alternativas":["Azul", "Verde", "Vermelho", "Amarelo"],
+                "resposta_correta": "Azul"
+            },
+            "questão3":{
+                "enunciado": "Qual é o valor de π (pi) até duas casas decimais?",
+                "pontuação": 1,
+                "alternativas":[3.14, 3.15, 3.16, 3.17],
+                "resposta_correta": 3.14
+            },
+            "questão4":{
+                "enunciado": "Qual é a capital da França?",
+                "pontuação": 2,
+                "alternativas":["Paris", "Londres", "Berlim", "Madri"],
+                "resposta_correta": "Paris"
+            },
+            "questão5":{
+                "enunciado": "Qual é a fórmula da água?",
+                "pontuação": 2,
+                "alternativas":["H2O", "CO2", "O2", "NaCl"],
+                "resposta_correta": "H2O"
+            }
+        }
+    }
+}
